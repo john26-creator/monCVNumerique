@@ -1,0 +1,25 @@
+header {
+	border: 1px solid black;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	background-color: #1F90CA;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    
+}
+
+header ul li a {
+    font-weight: bold;
+    color: white;
+}
+
+header ul li a:hover {
+    font-weight: bold;
+    color: white;
+}

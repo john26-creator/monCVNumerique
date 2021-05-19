@@ -1,0 +1,16 @@
+progress {
+	border: solid black 1px;
+	width:300px;
+	padding:2px;
+	background-color:white;
+	text-align:center
+	border-radius: 5px;
+}
+
+progress::-webkit-progress-bar {
+  background: #EBF5FB;
+}
+
+progress::-moz-progress-bar {
+  background: #EBF5FB;
+}

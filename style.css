@@ -1,0 +1,75 @@
+@font-face 
+{
+    font-family: 'droid_sansregular';
+    src: url('DroidSans-webfont.eot');
+    src: url('DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DroidSans-webfont.woff') format('woff'),
+         url('DroidSans-webfont.ttf') format('truetype'),
+         url('DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#conteneur0 {
+	width:100%;
+	position: relative;
+    display: flex;
+    flex-direction: horizontal;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#conteneur1 , #conteneur2, #conteneur3
+{
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+header img {
+	position: absolute;
+	top: 2px;
+	left:2px;
+}
+
+#conteneur1 {
+	width: 300px;
+}
+
+#conteneur2 {
+	width: 700px;
+}
+
+#conteneur3 {
+	width: 300px;
+}
+
+
+body h2
+{
+    font-family: 'droid_sansregular', 'Arial', sans-serif;
+    color: #1F90CA;
+}
+
+h1, h1 + p
+{
+    text-align: center;
+}
+
+img
+{
+
+	width: 8%;
+    float: right;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+
+h2
+{
+    color: #1F90CA;
+}
+
